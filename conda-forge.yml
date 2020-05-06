@@ -1,5 +1,5 @@
+bot:
+  automerge: true
 travis:
   secure:
     BINSTAR_TOKEN: fD8ENzo02TBYiE9QmNKEa3SzvdkeHJDXdkM6GrfQtJcDSuaVQzYtz3HnSsvP0cqwG4AShHBPqhnfwSXVe0i8cG/q3q++FhrZDN6a6k/BFyO6+GKY+cetBT2DUih13Xvw4WJehqLmZKfrHOxY0qJDhR9XSPmJxrCMVRu+RZnXX8mztd7eGVw2kOvuIqc+i+7zmvY6w51UleOALfUlC4tt+ebfKsWMXHZCPpfwbM4tJ5B8v1FbcDN06aOY3bMMH3t+KtAahvfoXH6oC/iSA+6VwUuWCPpjSqz3QB+DBCLVF5SgpmtEWjO3lcI9WPl2Ibgj+ilUMvdZ3zygO4vNuBTshHlh0lOc3Fb/KLYTW/bNdAj8Sstk+fi+qTZkN4zq01Ub0/FlNw6nNYP2qYSKdBqFbVECNAPSFNLPfa/RBpS4TqSfawbCpTQ8uq6ftfunYImUNHL6Ez/KnL56Fk8oh0pbITACI5xzGXQFi3dNcJZirpQEAmBG69/DsNJBxjhdmIdGqfVb97BT/6rB1bLWlqTmYYsDWnC5+a+LhCwvGaDM6UIlfM0LZafulekcXr9UZTY0VDptDNMdctMhta3YTM0PlRu/Qa/KW+jorwy/Xr6fuEpT5bSSBzU/LDuipJwyf/ZC5yASTmZYbsFWNuvNftHGLLIeSeghuoF5M7+MpHsc4XQ=
-bot:
-  automerge: true
