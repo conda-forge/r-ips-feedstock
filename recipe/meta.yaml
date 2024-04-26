@@ -23,20 +23,21 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-xml
     - r-ape
+    - r-data.table
     - r-phangorn
     - r-plyr
-    - r-seqinr
   run:
     - r-base
     - r-xml
     - r-ape
+    - r-data.table
     - r-phangorn
     - r-plyr
-    - r-seqinr
 
 test:
   commands:
@@ -45,7 +46,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=ips
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Functions that wrap popular phylogenetic software for sequence alignment, masking of sequence alignments, and estimation of phylogenies and ancestral character states.
   license_family: GPL3
   license_file:
