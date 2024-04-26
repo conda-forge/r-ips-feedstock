@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ips-feedstock
 
 Home: https://CRAN.R-project.org/package=ips
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Summary: Functions that wrap popular phylogenetic software for sequence alignment, masking of sequence alignments, and estimation of phylogenies and ancestral character states.
 
