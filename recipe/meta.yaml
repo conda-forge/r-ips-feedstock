@@ -1,4 +1,4 @@
-{% set version = "0.0.13" %}
+{% set version = "0.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ips_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ips/ips_{{ version }}.tar.gz
-  sha256: 46856edb6b0dd8b96d216feda2e327a7fb21b4164082d2ad730966958a4a4ac1
+  sha256: 75715492c023738af59ea268fa5af525dd0544080556d785f806697b50ad3132
 
 build:
   number: 0
