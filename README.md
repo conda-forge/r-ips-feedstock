@@ -9,6 +9,8 @@ Package license: GPL-3.0-only
 
 Summary: Functions that wrap popular phylogenetic software for sequence alignment, masking of sequence alignments, and estimation of phylogenies and ancestral character states.
 
+Development: https://github.com/heibl/ips
+
 Current build status
 ====================
 
