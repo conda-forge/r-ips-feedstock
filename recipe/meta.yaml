@@ -17,6 +17,10 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
@@ -27,15 +31,21 @@ requirements:
     - r-xml
     - r-ape
     - r-data.table
+    - r-dplyr
     - r-phangorn
     - r-plyr
+    - r-rlang
+    - r-tibble
   run:
     - r-base
     - r-xml
     - r-ape
     - r-data.table
+    - r-dplyr
     - r-phangorn
     - r-plyr
+    - r-rlang
+    - r-tibble
 
 test:
   commands:
@@ -44,6 +54,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=ips
+  dev_url: https://github.com/heibl/ips
   license: GPL-3.0-only
   summary: Functions that wrap popular phylogenetic software for sequence alignment, masking of sequence alignments, and estimation of phylogenies and ancestral character states.
   license_family: GPL3
